@@ -210,7 +210,7 @@ Importamos la base de datos y tablas a MariaDB, de esta forma la creamos
 
 Verificamos
 +++++++++++
-
+.::
 	# mysql -u root -p
 	Enter password: 
 	Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -409,9 +409,7 @@ Ahora desde un servido remoto realizamos una prueba.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 .::
 
-	$ nc 192.168.1.22 514
-	(UNKNOWN) [192.168.1.22] 514 (shell) : No route to host
-	cgome1@debian:~$ nc 192.168.1.22 514
+	$  nc 192.168.1.22 514
 	Prueba de envio
 	.
 	^C
